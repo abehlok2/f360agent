@@ -33,7 +33,7 @@ class Fusion360Agent(TeachableAgent):
             # Create agents 
             user = autogen.UserProxyAgent(
                 name="user",
-                code_execution_config={"work_dir": r"C:\Users\abehl\f360" },
+                code_execution_config={"work_dir": r"C:\Users\abehl\AppData\Local\Autodesk\webdeploy\production\3167d85f5fd4280287d8295f20592fa13b977617\Python\Samples" },
                 max_consecutive_auto_reply=1
                 )
 
